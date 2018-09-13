@@ -1,0 +1,20 @@
+
+TRusa.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Capa 1
+  rotate: false
+  xy: 2, 2
+  size: 220, 211
+  orig: 220, 211
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 224, 112
+  size: 160, 101
+  orig: 160, 101
+  offset: 0, 0
+  index: -1
