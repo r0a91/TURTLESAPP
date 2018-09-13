@@ -5,7 +5,7 @@ using UnityEngine;
 public class mainManager : MonoBehaviour {
 
 	public GameObject popup;
-
+	//asd
 	// Use this for initialization
 	void Start () {
 		popup = GameObject.Find("PopUpT1");
