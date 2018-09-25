@@ -9,12 +9,15 @@ public class Comportamiento : MonoBehaviour {
 
 	public GameObject popup;
 	public bool idleActivado, idle2Activado;
+	public GameObject t1Audio, bgMusic;
 
 	// Use this for initialization
 	void Start () {
 		colider = this.GetComponent<CircleCollider2D>();
 		skeleton = this.GetComponent<SkeletonAnimation>();
 		popup = GameObject.Find("PopUpT1");
+		t1Audio = GameObject.Find("Tortuga1Audio");
+		bgMusic = GameObject.Find("BackgroundMusic");
 	}
 	
 	// Update is called once per frame
@@ -33,6 +36,13 @@ public class Comportamiento : MonoBehaviour {
 			if (Input.GetMouseButtonDown(0))
 			{
 				popup.transform.localScale= Vector3.one;
+				
+				t1Audio.GetComponent<AudioSource>().Play();
+				bgMusic.GetComponent<AudioSource>().Pause();
+				
+				
+				
+				
 			}
 			
 		}else
