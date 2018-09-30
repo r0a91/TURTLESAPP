@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Capa 1
+  rotate: false
+  xy: 2, 2
+  size: 219, 210
+  orig: 219, 210
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 223, 93
+  size: 190, 119
+  orig: 190, 119
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 223, 14
+  size: 188, 77
+  orig: 188, 77
+  offset: 0, 0
+  index: -1

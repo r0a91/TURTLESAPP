@@ -15,8 +15,8 @@ public class Comportamiento : MonoBehaviour {
 	void Start () {
 		colider = this.GetComponent<CircleCollider2D>();
 		skeleton = this.GetComponent<SkeletonAnimation>();
-		popup = GameObject.Find("PopUpT1");
-		t1Audio = GameObject.Find("Tortuga1Audio");
+		//popup = GameObject.Find("PopUpTortugaRusa");
+		//t1Audio = GameObject.Find("Tortuga1Audio");
 		bgMusic = GameObject.Find("BackgroundMusic");
 	}
 	
