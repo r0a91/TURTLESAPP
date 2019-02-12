@@ -1,0 +1,40 @@
+{
+"skeleton": { "hash": "eRlP+yr2mIaWbPyMV0Hljm8IEKE", "spine": "3.6.53", "width": 400, "height": 362, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Select", "bone": "root" },
+	{ "name": "House", "bone": "root", "attachment": "House" }
+],
+"skins": {
+	"default": {
+		"House": {
+			"House": { "x": 21.5, "y": 68, "width": 400, "height": 362 }
+		},
+		"Select": {
+			"Select": { "x": 13.5, "y": 146.3, "scaleX": 3.151, "scaleY": 2.006, "width": 243, "height": 242 }
+		}
+	}
+},
+"animations": {
+	"Idle": {
+		"slots": {
+			"Select": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"Select": {
+		"slots": {
+			"Select": {
+				"attachment": [
+					{ "time": 0, "name": "Select" }
+				]
+			}
+		}
+	}
+}
+}

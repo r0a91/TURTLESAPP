@@ -1,0 +1,46 @@
+{
+"skeleton": {
+	"hash": "zrSs6rFSbKq1X0ReNt1f9jbubaE",
+	"spine": "3.6.53",
+	"width": 491,
+	"height": 370,
+	"images": "R:/Universidad/Multimedia/AssetsGraphic/ForestSpine"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Select", "bone": "root" },
+	{ "name": "Forest", "bone": "root", "attachment": "Forest" }
+],
+"skins": {
+	"default": {
+		"Forest": {
+			"Forest": { "x": -57.5, "y": 49, "width": 491, "height": 370 }
+		},
+		"Select": {
+			"Select": { "x": -3.5, "y": 129.11, "scaleX": 2.989, "scaleY": 2.989, "width": 243, "height": 242 }
+		}
+	}
+},
+"animations": {
+	"Idle": {
+		"slots": {
+			"Select": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"Select": {
+		"slots": {
+			"Select": {
+				"attachment": [
+					{ "time": 0, "name": "Select" }
+				]
+			}
+		}
+	}
+}
+}

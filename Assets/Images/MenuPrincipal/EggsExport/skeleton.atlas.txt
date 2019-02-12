@@ -1,0 +1,20 @@
+
+skeleton.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eggs
+  rotate: false
+  xy: 2, 2
+  size: 201, 144
+  orig: 201, 144
+  offset: 0, 0
+  index: -1
+Select
+  rotate: false
+  xy: 205, 25
+  size: 122, 121
+  orig: 122, 121
+  offset: 0, 0
+  index: -1

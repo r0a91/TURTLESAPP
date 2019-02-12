@@ -1,0 +1,50 @@
+{
+"skeleton": {
+	"hash": "s/ScZDAD767NpIwuHpQwPNCRgH4",
+	"spine": "3.6.53",
+	"width": 389,
+	"height": 250,
+	"images": "E:/Universidad/Multimedia/MenuPrincipalAssets/MenuPrincipal/Layer 2 copy"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Layer 6", "bone": "root", "attachment": "Layer 6" },
+	{ "name": "Capa 1", "bone": "root", "color": "cfde29d8", "blend": "additive" },
+	{ "name": "Layer 3", "bone": "root", "attachment": "Layer 3" }
+],
+"skins": {
+	"default": {
+		"Capa 1": {
+			"Capa 1": { "x": 17, "y": 59, "width": 438, "height": 419 }
+		},
+		"Layer 3": {
+			"Layer 3": { "x": -2, "y": 40, "width": 379, "height": 237 }
+		},
+		"Layer 6": {
+			"Layer 6": { "x": 10, "y": -15, "width": 375, "height": 153 }
+		}
+	}
+},
+"animations": {
+	"Idle": {
+		"slots": {
+			"Capa 1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"Idle2": {
+		"slots": {
+			"Capa 1": {
+				"attachment": [
+					{ "time": 0, "name": "Capa 1" }
+				]
+			}
+		}
+	}
+}
+}

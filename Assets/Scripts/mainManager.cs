@@ -9,8 +9,8 @@ public class mainManager : MonoBehaviour {
 	//asd
 	// Use this for initialization
 	void Start () {
-		popup = GameObject.Find("PopUpT1");
-		t1Audio = GameObject.Find("Tortuga1Audio");
+		//popup = GameObject.Find("PopUpT1");
+		//t1Audio = GameObject.Find("Tortuga1Audio");
 		bgMusic = GameObject.Find("BackgroundMusic");
 	}
 	

@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Select
+  rotate: false
+  xy: 2, 2
+  size: 122, 121
+  orig: 122, 121
+  offset: 0, 0
+  index: -1
+carbonara1
+  rotate: false
+  xy: 126, 10
+  size: 102, 35
+  orig: 102, 35
+  offset: 0, 0
+  index: -1
+carbonara2
+  rotate: false
+  xy: 126, 47
+  size: 109, 76
+  orig: 109, 76
+  offset: 0, 0
+  index: -1
