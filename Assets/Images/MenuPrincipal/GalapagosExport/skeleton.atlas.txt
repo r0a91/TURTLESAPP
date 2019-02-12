@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Select
+  rotate: false
+  xy: 143, 65
+  size: 122, 121
+  orig: 122, 121
+  offset: 0, 0
+  index: -1
+galapagos1
+  rotate: false
+  xy: 2, 45
+  size: 139, 141
+  orig: 139, 141
+  offset: 0, 0
+  index: -1
+galapagos2
+  rotate: false
+  xy: 2, 2
+  size: 128, 41
+  orig: 128, 41
+  offset: 0, 0
+  index: -1

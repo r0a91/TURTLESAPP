@@ -31,7 +31,7 @@ public class Comportamiento : MonoBehaviour {
 			if (idle2Activado==false)
 			{	
 				idle2Activado=true;
-				skeleton.state.SetAnimation(0, "Idle2", true);	
+				skeleton.state.SetAnimation(0, "Select", true);	
 			}
 			if (Input.GetMouseButtonDown(0))
 			{

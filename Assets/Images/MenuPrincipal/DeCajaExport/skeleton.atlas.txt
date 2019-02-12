@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DeCaja1
+  rotate: false
+  xy: 126, 38
+  size: 124, 87
+  orig: 124, 87
+  offset: 0, 0
+  index: -1
+DeCaja2
+  rotate: false
+  xy: 126, 2
+  size: 109, 34
+  orig: 109, 34
+  offset: 0, 0
+  index: -1
+Select
+  rotate: false
+  xy: 2, 4
+  size: 122, 121
+  orig: 122, 121
+  offset: 0, 0
+  index: -1

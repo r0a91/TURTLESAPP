@@ -1,0 +1,40 @@
+{
+"skeleton": { "hash": "t+N4xL3WcwkUxNQZryVjsg1JdAE", "spine": "3.6.53", "width": 402, "height": 287, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Select", "bone": "root" },
+	{ "name": "Eggs", "bone": "root", "attachment": "Eggs" }
+],
+"skins": {
+	"default": {
+		"Eggs": {
+			"Eggs": { "x": -27.5, "y": -31, "width": 402, "height": 287 }
+		},
+		"Select": {
+			"Select": { "x": -0.5, "y": 9, "scaleX": 3.783, "scaleY": 2.483, "width": 243, "height": 242 }
+		}
+	}
+},
+"animations": {
+	"Idle": {
+		"slots": {
+			"Select": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"Select": {
+		"slots": {
+			"Select": {
+				"attachment": [
+					{ "time": 0, "name": "Select" }
+				]
+			}
+		}
+	}
+}
+}

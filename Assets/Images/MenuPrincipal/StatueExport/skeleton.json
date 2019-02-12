@@ -1,0 +1,40 @@
+{
+"skeleton": { "hash": "90bMav7iDU3xbqco3cK08OB0W94", "spine": "3.6.53", "width": 221, "height": 293, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Select", "bone": "root" },
+	{ "name": "Statue", "bone": "root", "attachment": "Statue" }
+],
+"skins": {
+	"default": {
+		"Select": {
+			"Select": { "x": -9.5, "y": 148, "scaleX": 2.146, "scaleY": 2.711, "width": 243, "height": 242 }
+		},
+		"Statue": {
+			"Statue": { "x": 34.5, "y": 91, "width": 221, "height": 293 }
+		}
+	}
+},
+"animations": {
+	"Idle": {
+		"slots": {
+			"Select": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"Select": {
+		"slots": {
+			"Select": {
+				"attachment": [
+					{ "time": 0, "name": "Select" }
+				]
+			}
+		}
+	}
+}
+}
