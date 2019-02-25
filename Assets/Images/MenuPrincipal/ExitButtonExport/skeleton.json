@@ -1,0 +1,36 @@
+{
+"skeleton": { "hash": "0qP48GOJu5AisCeZb8tGv27ZgrY", "spine": "3.6.53", "width": 421, "height": 532, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "ButtonExit", "bone": "root", "attachment": "ButtonExit" }
+],
+"skins": {
+	"default": {
+		"ButtonExit": {
+			"ButtonExit": { "x": -0.5, "y": 205, "width": 421, "height": 532 }
+		}
+	}
+},
+"animations": {
+	"Idle": {
+		"bones": {
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Select": {
+		"bones": {
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1.058, "y": 1.058 }
+				]
+			}
+		}
+	}
+}
+}

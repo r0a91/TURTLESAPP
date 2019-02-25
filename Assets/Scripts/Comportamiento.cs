@@ -37,6 +37,15 @@ public class Comportamiento : MonoBehaviour {
 			{
 				popup.transform.localScale= Vector3.one;
 				
+
+				foreach (GameObject item in GameObject.FindGameObjectsWithTag("Tortuga"))
+				{
+				item.GetComponent<CircleCollider2D>().enabled = false;
+					
+				}
+				
+				
+				
 				t1Audio.GetComponent<AudioSource>().Play();
 				bgMusic.GetComponent<AudioSource>().Pause();
 				
